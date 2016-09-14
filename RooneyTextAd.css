@@ -1,0 +1,190 @@
+
+
+.choiceButton {
+	display: inline-block;
+	padding-top: 4px;
+	color: white;
+	text-align: center;
+	height: 26px;
+	width: 65px;
+	margin-left: 2px;
+	border: 2px solid #c68c53;
+	background-color: #996633;
+}
+#hpRemaining {
+	margin-left: 40px;
+	background-color: #009900;
+}
+
+#enemiesBlock1 {
+	display: block;
+	padding: 0px;
+	margin: 100px 0px 0px 320px;
+	height: 55px;
+	width: 50px;
+}
+#enemy1 {
+	background-image: url("pics/InigoMapIcon2.png");
+	height: 50px;
+	width: 50px;
+}
+
+#enemiesBlock2 {
+	display: block;
+	padding: 0px;
+	margin: 90px 0px 0px 260px;
+	height: 50px;
+	width: 250px;
+}
+#enemy2 {
+	background-image: url("pics/lanceguy2.png");
+	height: 50px;
+	width: 50px;
+	margin-left: 60px;
+}
+#enemy3 {
+	background-image: url("pics/VaikeMapIcon2.png");
+	height: 50px;
+	width: 50px;
+	margin-left: 0px;
+}
+
+#enemiesBlock3 {
+	display: block;
+	padding: 0px;
+	margin: 70px 0px 0px 200px;
+	height: 55px;
+	width: 500px;
+}
+#enemy4 {
+	background-image: url("pics/VaikeMapIcon2.png");
+	height: 50px;
+	width: 50px;
+	margin-left: 50px;
+}
+#enemy5 {
+	background-image: url("pics/InigoMapIcon2.png");
+	height: 50px;
+	width: 50px;
+	margin-left: 50px;
+}
+#enemy6 {
+	background-image: url("pics/lanceguy2.png");
+	height: 50px;
+	width: 50px;
+	margin-left: 30px;
+}
+#enemy7 {
+	background-image: url("pics/InigoMapIcon2.png");
+	height: 50px;
+	width: 50px;
+	margin-left: 0px;
+}
+
+#enemiesBlock4 {
+	display: block;
+	padding: 0px;
+	margin: 15px 0px 0px 160px;
+	height: 55px;
+	width: 500px;
+}
+#enemy8 {
+	background-image: url("pics/lanceguy2.png");
+	height: 50px;
+	width: 50px;
+	margin-left: 60px;
+}
+#enemy9 {
+	background-image: url("pics/VaikeMapIcon2.png");
+	height: 50px;
+	width: 50px;
+	margin-left: 50px;
+}
+#enemy10 {
+	background-image: url("pics/lanceguy2.png");
+	height: 50px;
+	width: 50px;
+	margin-left: 30px;
+}
+#enemy11 {
+	background-image: url("pics/VaikeMapIcon2.png");
+	height: 50px;
+	width: 50px;
+	margin-left: 0px;
+}
+
+#enemiesBlock5 {
+	display: block;
+	padding: 0px;
+	margin: 30px 0px 0px 250px;
+	height: 55px;
+	width: 300px;
+}
+#enemy12 {
+	background-image: url("pics/FrederickMapIcon2.png");
+	height: 50px;
+	width: 50px;
+	margin-left: 100px;
+}
+#enemy13 {
+	background-image: url("pics/PriamMapIcon2.png");
+	height: 50px;
+	width: 50px;
+}
+
+#enemiesBlock6 {
+	padding: 0px;
+	margin: 100px 0px 0px 280px;
+	height: 55px;
+	width: 50px;
+}
+#enemy14 {
+	background-image: url("pics/GangrelMapIcon2.png");
+	height: 50px;
+	width: 50px;
+}
+
+.enemyDiv {
+	display: inline-block ;
+	margin: auto;
+	height: 50px;
+	width: 50px;
+}
+
+#map {
+	display: inline-block;
+	background-image: url("pics/Varm.jpg");
+	height: 918px;
+	width: 810px;
+	position: relative;
+}
+
+#textLog {
+	float: right;
+	display: inline-block;
+	height: 908px;
+	width: 500px;
+	border: 5px double red;
+	padding: 0px 10px 0px 10px;
+	margin-right: 10px;
+}
+#statBox {
+	display: inline-block;
+	height: 75px;
+	width: 180px;
+	float: right;
+	border: 2px solid black;
+	background-color: white;
+	margin-top: 0px;
+	padding: 5px;
+}
+
+#resetButton {
+	display: inline-block;
+	margin-top: 0px;
+}
+
+
+
+
+
