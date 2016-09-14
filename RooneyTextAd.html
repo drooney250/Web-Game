@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FEA mini game</title>
+<link type="text/css" rel="stylesheet" href="RooneyTextAd.css"/>
+<script type="text/javascript" src="RooneyTextAd.js"></script>
+</head>
+<body>
+
+	<div id="map">
+	<button onclick="location.href='RooneyTextAd.html'" id="resetButton">Reset Game</button>
+	<div id="hpRemaining" class="choiceButton">HP: 40</div>
+	<div id="swordButton" class="choiceButton" onclick="weaponType = 'SWORD' " onmouseover="this.style.background='#d9b38c'" onmouseleave="this.style.background='#996633'">Sword 12</div>
+	<div id="lanceButton" class="choiceButton" onclick="weaponType = 'LANCE' " onmouseover="this.style.background='#d9b38c'" onmouseleave="this.style.background='#996633'" >Lance 10</div>
+	<div id="axeButton" class="choiceButton" onclick="weaponType = 'AXE' " onmouseover="this.style.background='#d9b38c'" onmouseleave="this.style.background='#996633'">Axe 8</div>
+	<div id="bombButton" class="choiceButton" onclick="weaponType = 'BOMB' " onmouseover="this.style.background='#d9b38c'" onmouseleave="this.style.background='#996633'">Bomb 2</div>
+	<div id="elixir" class="choiceButton" onclick="hpCheck()" onmouseover="this.style.background='#d9b38c'" onmouseleave="this.style.background='#996633'">Elixir 3</div>
+	<div id="statBox"></div>
+		<div id="enemiesBlock6">
+			<div id="enemy14" class="enemyDiv" onclick="fight(enemy14)" onmouseenter="statsDisplay(enemy14)" onmouseleave="statsDisplayClear()"></div>
+		</div>
+		
+		<div id="enemiesBlock5">
+			<div id="enemy13" class="enemyDiv" onclick="fight(enemy13)" onmouseenter="statsDisplay(enemy13)" onmouseleave="statsDisplayClear()"></div>
+			<div id="enemy12" class="enemyDiv" onclick="fight(enemy12)" onmouseenter="statsDisplay(enemy12)" onmouseleave="statsDisplayClear()"></div>
+		</div>
+		
+		<div id="enemiesBlock4">
+			<div id="enemy11" class="enemyDiv" onclick="fight(enemy11)" onmouseenter="statsDisplay(enemy11)" onmouseleave="statsDisplayClear()"></div>
+			<div id="enemy10" class="enemyDiv" onclick="fight(enemy10)" onmouseenter="statsDisplay(enemy10)" onmouseleave="statsDisplayClear()"></div>
+			<div id="enemy9" class="enemyDiv" onclick="fight(enemy9)" onmouseenter="statsDisplay(enemy9)" onmouseleave="statsDisplayClear()"></div>
+			<div id="enemy8" class="enemyDiv" onclick="fight(enemy8)" onmouseenter="statsDisplay(enemy8)" onmouseleave="statsDisplayClear()"></div>
+		</div>
+		
+		<div id="enemiesBlock3">
+			<div id="enemy7" class="enemyDiv" onclick="fight(enemy7)" onmouseenter="statsDisplay(enemy7)" onmouseleave="statsDisplayClear()"></div>
+			<div id="enemy6" class="enemyDiv" onclick="fight(enemy6)" onmouseenter="statsDisplay(enemy6)" onmouseleave="statsDisplayClear()"></div>
+			<div id="enemy5" class="enemyDiv" onclick="fight(enemy5)" onmouseenter="statsDisplay(enemy5)" onmouseleave="statsDisplayClear()"></div>
+			<div id="enemy4" class="enemyDiv" onclick="fight(enemy4)" onmouseenter="statsDisplay(enemy4)" onmouseleave="statsDisplayClear()"></div>
+		</div>
+		
+		<div id="enemiesBlock2">
+			<div id="enemy3" class="enemyDiv" onclick="fight(enemy3)" onmouseenter="statsDisplay(enemy3)" onmouseleave="statsDisplayClear()"></div>
+			<div id="enemy2" class="enemyDiv" onclick="fight(enemy2)" onmouseenter="statsDisplay(enemy2)" onmouseleave="statsDisplayClear()"></div>
+		</div>
+		
+		<div id="enemiesBlock1">
+			<div id="enemy1" class="enemyDiv" onclick="fight(enemy1)" onmouseenter="statsDisplay(enemy1)" onmouseleave="statsDisplayClear()"></div>
+		</div>
+		
+		
+	</div>
+	
+	<div id="textLog">
+		<p id="textLogText">This is a small game I made back in high school using HTML, CSS, and JavaScript. 
+		Source files can be found <a href="https://github.com/drooney250/Web-Game">here</a>.
+		Depending on your screen size you may need to zoom out in the browser so the text log will fit next to the map.
+		You will also need to put all pictures into a file named 'pics' in order for them to be found.<br><br> 
+		You must save your life and continent 
+		by fighting off the invaders. Surely the unmotivated infantry will give up and go home if you manage to defeat 
+		their king. You must defeat one enemy per block to challenge an enemy in the next block. Keep fighting until you 
+		can challenge the king.<br><br> To fight, first select a weapon to use and then an enemy to use it on. 
+		Each weapon deals a specific amount of damage and has a certain percent accuracy. These values are equal to 
+		the enemies equivalent weapons. You can use a bomb to deal 8 damage to an enemy without fail, or use an 
+		elixir to raise your HP by 30. Good Luck!<br><br>
+		</p>
+	</div>
+	
+	<audio src="FEA Champion ablaze.mp3" autoplay="autoplay" loop="loop">	</audio>
+	
+</body>
+</html>
