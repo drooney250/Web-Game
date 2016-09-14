@@ -62,11 +62,6 @@ var enemy13 = new enemy(18, 4, "LONGSWORD", 9, "80%");
 var enemy14 = new enemy(30, 5, "SCYTHE", 14, "65%");
 
 
-
-//---------------------------------------------Weapons-------------------------------------------//
-
-//nope new plan//
-
 //----------------------------------------The enemies attack-----------------------------------------------//
 var enemyAttack = function(enemyNum) {
 	if(enemyNum.weapon === "SWORD") {
@@ -389,9 +384,10 @@ var statsDisplayClear = function() {
 	document.getElementById("statBox").innerHTML = "";
 }
 
-var choiceButtonHighlight = function() {
-	document.getElementById("changeWeaponButton").style.background = "red";
-}
+//remains of a button styling attempt
+//var choiceButtonHighlight = function() {
+//	document.getElementsByClassName("changeWeaponButton").style.background = "red";
+//}
 
 
 
